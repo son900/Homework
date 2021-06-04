@@ -56,8 +56,8 @@ class SchoolBus(School, Bus):
 
 schoolbus = SchoolBus(71, 13, 70, 153, 36, 'Red')
 schoolbus.print_schoolbus()
-schoolbus.print_school()
-schoolbus.print_capacity()
+#schoolbus.print_school()
+#schoolbus.print_capacity()
 print(isinstance(schoolbus, Bus))
 #7. Polymorphism: Create two classes: Bear, Wolf. Both of them should have make_sound method. Create two instances,
 # one of Bear and one of Wolf, make a tuple of it and by using for call their action using the same method.
@@ -182,5 +182,4 @@ order_1 = MyOrder(['a', 'b', 'c'], 'd')
 order_2 = MyOrder([], 'a')
 print(order_1)
 print(order_2)
-
 

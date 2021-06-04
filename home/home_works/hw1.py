@@ -166,4 +166,4 @@ print(list(filter(lambda x: x in list_2, list_1)))
 # Тут пытался всунуть range(len(list_1)) и list_2
 
 
-print(list(filter(lambda x: x if x % 2 == 1, lst_to_sort)))
+print(list(filter(lambda x: (x % 2 == 1), lst_to_sort)))
